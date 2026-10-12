@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Madni Dukhana",
+    "slug": "madni-dukhana",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.madnidukhana.app"
+    },
+    "android": {
+      "package": "com.madnidukhana.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sharing"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3e60a41d-7d00-483b-9013-34739786a0f2"
+      }
+    },
+    "owner": "moizahmadawan"
+  }
+}
