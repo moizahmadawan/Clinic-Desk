@@ -4,13 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyC1ePHriV2dzOXdAwsu545pvjMGlP6V8Mo',
-  authDomain: 'herbal-app-70b80.firebaseapp.com',
-  projectId: 'herbal-app-70b80',
-  storageBucket: 'herbal-app-70b80.firebasestorage.app',
-  messagingSenderId: '445531404538',
-  appId: '1:445531404538:web:cbbc640ef604642aa8f143',
-  measurementId: 'G-QT3RFPXMDL',
+  apiKey: ' ',
+  authDomain: ' ',
+  projectId: ' ',
+  storageBucket: ' ',
+  messagingSenderId: ' ',
+  appId: ' ',
+  measurementId: '',
 };
 
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
